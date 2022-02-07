@@ -16,7 +16,7 @@ exports.up = function(knex) {
          .onDelete('CASCADE')
          .onUpdate('CASCADE')
       tbl.float('price')
-      tbl.string('ticket_code')
+      tbl.string('reservation_code')
       tbl.boolean('isReturnWay')
       tbl.boolean('isAcceptedByAirline')
       tbl.boolean('isPublished')
